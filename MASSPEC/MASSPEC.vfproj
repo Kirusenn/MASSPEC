@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{A815D907-2D22-4293-AF9B-47E9DCA7F301}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\ANAMEN.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\CALC.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\CALCNAME.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\CLEAR.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\CLUSTIN.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\INI.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\LOAD.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\MASSPEC.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\PRINT.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\PRINT2.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\SAVE.FOR"/>
+		<File RelativePath="..\..\..\..\Google Drive\Morse Lab\MASSPEC\MASSPEC Program\SMAINMEN.FOR"/></Filter>
+		<File RelativePath=".\ReadMe.txt"/></Files>
+	<Globals/></VisualStudioProject>
